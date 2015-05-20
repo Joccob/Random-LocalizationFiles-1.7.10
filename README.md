@@ -8,9 +8,11 @@ Thus I will put those lang files here so that I can translate them when I'm free
 #### Requirement
 
 Of course you are allowed to update all the localization files and I will always appreciate that. But there are some basic requirements.
-      1. The translation should be accurate...well, at least be correct.
-      2. The translation should be neat and ordered.
-      
+    
+    1.The translation should be accurate...well, at least be correct.
+    
+    2.The translation should be neat and ordered.
+
 
 If you have any questions, feel free to ask me.
 
