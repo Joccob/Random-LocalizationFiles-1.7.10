@@ -1,0 +1,232 @@
+# Block localizations
+tile.CC2:OnyxOre.name=Onyx Ore
+
+tile.CC2:OnyxPressureplate.name=Onyx Pressureplate
+tile.CC2:ChaosPressureplate.name=Chaos Pressureplate
+
+tile.CC2:InfusionAltarCore.name=Infusion Altar Core
+tile.CC2:InfusionAltarDummy1.name=InfusionAltarDummy1
+tile.CC2:InfusionAltarDummy2.name=InfusionAltarDummy2
+tile.CC2:InfusionAltarDummy3.name=InfusionAltarDummy3
+
+tile.CC2:ChaosSpawnerCore.name=Chaos Spawner Core
+tile.CC2:ChaosSpawnerDummy1.name=ChaosSpawnerDummy1
+tile.CC2:ChaosSpawnerDummy2.name=ChaosSpawnerDummy2
+
+tile.CC2:GhostTorch.name=Ghost Torch
+
+tile.CC2:ChaosTable.name=Chaos Table
+
+tile.CC2:HeatSand.name=Heat Sand
+
+tile.CC2:SoulWood.name=Soul Wood
+tile.CC2:SoulPlanks.name=Soul Planks
+tile.CC2:SoulLeaves.name=Soul Leaves
+tile.CC2:SoulSapling.name=Soul Sapling
+tile.CC2:SoulVine.name=Soul Vine
+
+tile.CC2:AbyssGrass.name=Abyss Grass
+tile.CC2:AbyssDirt.name=Abyss Dirt
+tile.CC2:AbyssRock.name=Abyss Rock
+tile.CC2:AbyssCobbleRock.name=Abyss CobbleRock
+tile.CC2:AbyssHardRock.name=Abyss HardRock
+
+tile.CC2:NoviteOre.name=Novite Ore
+tile.CC2:MarmarosOre.name=Marmaros Ore
+tile.CC2:FractoniumOre.name=Fractonium Ore
+tile.CC2:FractiteOre.name=Fractite Ore
+tile.CC2:ZephyriumOre.name=Zephyrium Ore
+tile.CC2:ArgoniteOre.name=Argonite Ore
+tile.CC2:AzulyteOre.name=Azulyte Ore
+tile.CC2:PromethiumOre.name=Promethium Ore
+
+tile.CC2:AbyssOnyxOre.name=Onyx Ore
+tile.CC2:AbyssChaosOre.name=Chaos Ore
+
+tile.CC2:AbyssFurnace.name=Abyss Furnace
+
+tile.CC2:CompressedNovite.name=Novite Block
+tile.CC2:CompressedMarmaros.name=Marmaros Block
+tile.CC2:CompressedFractonium.name=Fractonium Block
+tile.CC2:CompressedFractite.name=Fractite Block
+tile.CC2:CompressedZephyrium.name=Zephyrium Block
+tile.CC2:CompressedArgonite.name=Argonite Block
+tile.CC2:CompressedAzulyte.name=Azulyte Block
+tile.CC2:CompressedPromethium.name=Promethium Block
+
+tile.CC2:DungeonStone.name=Dungeon Stone
+tile.CC2:DungeonPillar.name=Dungeon Pillar
+tile.CC2:DungeonBlock.name=Dungeon Block
+tile.CC2:DungeonDoor.name=Dungeon Door
+
+# Item localizations
+item.CC2:OnyxGem.name=Onyx Gem
+item.CC2:ChaosGem.name=Chaos Gem
+
+item.CC2:BioScrap.name=Bio Scrap
+
+item.CC2:Knife1.name=Wooden Knife
+item.CC2:Knife2.name=Stone Knife
+item.CC2:Knife3.name=Iron Knife
+item.CC2:Knife4.name=Golden Knife
+item.CC2:Knife5.name=Diamond Knife
+item.CC2:Knife6.name=Onyx Knife
+item.CC2:Knife7.name=Chaos Knife
+
+item.CC2:ChaosWand.name=Chaos Wand
+
+item.CC2:OnyxApple.name=Onyx Apple
+item.CC2:ChaosApple.name=Chaos Apple
+item.CC2:BioApple.name=Bio Apple
+
+item.CC2:ChaosWrench.name=Chaos Wrench
+
+item.CC2:UltiSigil.name=Ultimate Sigil
+
+item.CC2:CraftUpgrade.name=Craft Upgrade
+
+item.CC2:EntityCoin.name=Entity Coin
+
+item.CC2:Wings.name=Wings
+item.CC2:ChaosWings.name=Chaos Wings
+item.CC2:RainbowWings.name=Rainbow Wings
+item.CC2:BloodWings.name=Blood Wings
+
+item.CC2:Soul0.name=Tier: 1 Soul Shard
+item.CC2:Soul1.name=Tier: 2 Soul Shard
+item.CC2:Soul2.name=Tier: 3 Soul Shard
+item.CC2:Soul3.name=Tier: 4 Soul Shard
+item.CC2:Soul4.name=Tier: 5 Soul Shard
+
+item.CC2:ChaosBook.name=Chaosnomicon
+
+item.CC2:OnyxEssence.name=Onyx Essence
+item.CC2:SoulEssence.name=Soul Essence
+item.CC2:ChaosEssence.name=Chaos Essence
+item.CC2:Fertilizer.name=Fertilizer
+
+item.CC2:Upgrade.name=Upgrade
+
+item.CC2:SmallNet.name=Small Fishing Net
+
+item.CC2:StoneHook.name=Stone Hook
+item.CC2:IronHook.name=Iron Hook
+item.CC2:GoldHook.name=Gold Hook
+item.CC2:DiamondHook.name=Diamond Hook
+item.CC2:OnyxHook.name=Onyx Hook
+item.CC2:ChaosHook.name=Chaos Hook
+
+item.CC2:RawFishShrimp.name=Raw Shrimp
+item.CC2:RawFishAnchovies.name=Raw Anchovies
+item.CC2:RawFishTrout.name=Raw Trout
+item.CC2:RawFishSalmon.name=Raw Salmon
+
+item.CC2:CookedFishShrimp.name=Cooked Shrimp
+item.CC2:CookedFishAnchovies.name=Cooked Anchovies
+item.CC2:CookedFishTrout.name=Cooked Trout
+item.CC2:CookedFishSalmon.name=Cooked Salmon
+
+item.CC2:UltiAmulet.name=Ultimate Amulet
+
+item.CC2:NoviteIngot.name=Novite Ingot
+item.CC2:MarmarosIngot.name=Marmaros Ingot
+item.CC2:FractoniumIngot.name=Fractonium Ingot
+item.CC2:FractiteIngot.name=Fractite Ingot
+item.CC2:ZephyriumIngot.name=Zephyrium Ingot
+item.CC2:ArgoniteIngot.name=Argonite Ingot
+item.CC2:AzulyteIngot.name=Azulyte Ingot
+item.CC2:PromethiumIngot.name=Promethium Ingot
+
+item.CC2:NovitePickaxe.name=Novite Pickaxe
+item.CC2:MarmarosPickaxe.name=Marmaros Pickaxe
+item.CC2:FractoniumPickaxe.name=Fractonium Pickaxe
+item.CC2:FractitePickaxe.name=Fractite Pickaxe
+item.CC2:ZephyriumPickaxe.name=Zephyrium Pickaxe
+item.CC2:ArgonitePickaxe.name=Argonite Pickaxe
+item.CC2:AzulytePickaxe.name=Azulyte Pickaxe
+item.CC2:PromethiumPickaxe.name=Promethium Pickaxe
+
+item.CC2:NoviteAxe.name=Novite Axe
+item.CC2:MarmarosAxe.name=Marmaros Axe
+item.CC2:FractoniumAxe.name=Fractonium Axe
+item.CC2:FractiteAxe.name=Fractite Axe
+item.CC2:ZephyriumAxe.name=Zephyrium Axe
+item.CC2:ArgoniteAxe.name=Argonite Axe
+item.CC2:AzulyteAxe.name=Azulyte Axe
+item.CC2:PromethiumAxe.name=Promethium Axe
+
+item.CC2:NoviteShovel.name=Novite Shovel
+item.CC2:MarmarosShovel.name=Marmaros Shovel
+item.CC2:FractoniumShovel.name=Fractonium Shovel
+item.CC2:FractiteShovel.name=Fractite Shovel
+item.CC2:ZephyriumShovel.name=Zephyrium Shovel
+item.CC2:ArgoniteShovel.name=Argonite Shovel
+item.CC2:AzulyteShovel.name=Azulyte Shovel
+item.CC2:PromethiumShovel.name=Promethium Shovel
+
+item.CC2:NoviteSword.name=Novite Sword
+item.CC2:MarmarosSword.name=Marmaros Sword
+item.CC2:FractoniumSword.name=Fractonium Sword
+item.CC2:FractiteSword.name=Fractite Sword
+item.CC2:ZephyriumSword.name=Zephyrium Sword
+item.CC2:ArgoniteSword.name=Argonite Sword
+item.CC2:AzulyteSword.name=Azulyte Sword
+item.CC2:PromethiumSword.name=Promethium Sword
+
+item.CC2:NoviteHoe.name=Novite Hoe
+item.CC2:MarmarosHoe.name=Marmaros Hoe
+item.CC2:FractoniumHoe.name=Fractonium Hoe
+item.CC2:FractiteHoe.name=Fractite Hoe
+item.CC2:ZephyriumHoe.name=Zephyrium Hoe
+item.CC2:ArgoniteHoe.name=Argonite Hoe
+item.CC2:AzulyteHoe.name=Azulyte Hoe
+item.CC2:PromethiumHoe.name=Promethium Hoe
+
+item.CC2:Bucket.Novite.name=Molten Novite Bucket
+item.CC2:Bucket.Marmaros.name=Molten Marmaros Bucket
+item.CC2:Bucket.Fractonium.name=Molten Fractonium Bucket
+item.CC2:Bucket.Fractite.name=Molten Fractite Bucket
+item.CC2:Bucket.Zephyrium.name=Molten Zephyrium Bucket
+item.CC2:Bucket.Argonite.name=Molten Argonite Bucket
+item.CC2:Bucket.Azulyte.name=Molten Azulyte Bucket
+item.CC2:Bucket.Promethium.name=Molten Promethium Bucket
+
+item.CC2:BookOfTravelling.name=Book Of Travelling
+
+item.CC2:ItemEntityLivingBeetle.name=Spawn Beetle
+
+item.CC2:ItemDungeonSpawn.name=Spawn Dungeon
+
+# Tools localizations
+item.CC2:UltiMattock.name=Ultimate Mattock
+item.CC2:UltiWarHammer.name=Ultimate War Hammer
+item.CC2:UltiRapier.name=Ultimate Rapier
+item.CC2:UltiBow.name=Ultimate Bow
+item.CC2:UltiBattleAxe.name=Ultimate Battle Axe
+
+item.CC2:UltiHelmet.name=Ultimate Helmet
+item.CC2:UltiChestplate.name=Ultimate Chestplate
+item.CC2:UltiLeggings.name=Ultimate Leggings
+item.CC2:UltiBoots.name=Ultimate Boots
+
+# Fluid localizations
+tile.fluid.molten.Novite.name=Molten Novite
+tile.fluid.molten.Marmaros.name=Molten Marmaros
+tile.fluid.molten.Fractonium.name=Molten Fractonium
+tile.fluid.molten.Fractite.name=Molten Fractite
+tile.fluid.molten.Zephyrium.name=Molten Zephyrium
+tile.fluid.molten.Argonite.name=Molten Argonite
+tile.fluid.molten.Azulyte.name=Molten Azulyte
+tile.fluid.molten.Promethium.name=Molten Promethium
+
+fluid.Novite.molten=Molten Novite
+fluid.Marmaros.molten=Molten Marmaros
+fluid.Fractonium.molten=Molten Fractonium
+fluid.Fractite.molten=Molten Fractite
+fluid.Zephyrium.molten=Molten Zephyrium
+fluid.Argonite.molten=Molten Argonite
+fluid.Azulyte.molten=Molten Azulyte
+fluid.Promethium.molten=Molten Promethium
+
+# Extra localizations
+key.categories.cc2=ChaosCraft
