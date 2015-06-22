@@ -1,4 +1,4 @@
-# Random-Files
+## Random-Files
 #### Introduction
 
 Just some lang files for minecraft mods and maybe more...Well, mostly mods' lang files. There are so many great mods out there and I dont have time to translate all of them. There are also some lang files that I've already finished translation but I don't know where to put them. Thus I will put those lang files here so that I can translate or update them when I'm free, or you can help me to translate them if you are willing to.
