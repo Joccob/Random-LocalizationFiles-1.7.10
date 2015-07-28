@@ -58,6 +58,10 @@ item.android_pill_red.name=红色药丸
 item.android_pill_red.details=吃下红色药丸后你将无所畏惧
 item.android_pill_blue.name=蓝色药丸
 item.android_pill_blue.details=吃下蓝色药丸后你会一无所知的在床上醒来
+item.creative_pattern_drive.name=创造模式储存单元
+item.creative_pattern_drive.details=包含绝大多数可重组物品\n潜行右键重新加载
+item.network_flash_drive.name=网络闪存驱动器
+item.network_flash_drive.details=物质网络设备中的过滤器
 
 item.upgrade.speed.name=速度升级
 item.upgrade.power.name=能耗升级
@@ -248,11 +252,27 @@ gui.tooltip.matter.none=无
 gui.tooltip.energy.io=输入/输出
 gui.tooltip.requires=需要
 gui.tooltip.scout_button=派遣侦察飞船，搜寻行星并开始修建
+gui.tooltip.slot.bionic.head=头盔
+gui.tooltip.slot.bionic.arms=臂甲
+gui.tooltip.slot.bionic.legs=腿甲
+gui.tooltip.slot.bionic.chest=胸甲
+gui.tooltip.slot.bionic.other=其他
+gui.tooltip.slot.bionic.battery=电池
+gui.tooltip.slot.database=模式数据库
+gui.tooltip.slot.filter=网络过滤器
+gui.tooltip.slot.energy=RF能量
+gui.tooltip.slot.matter=物质
+gui.tooltip.slot.pattern_storage=模式存储
+gui.tooltip.slot.shielding=防护
+gui.tooltip.slot.upgrade=升级
+gui.tooltip.slot.recycle=可循环
+gui.tooltip.slot.weapon=武器
 gui.redstone_mode.high=高
 gui.redstone_mode.low=低
 gui.redstone_mode.disabled=禁用
 gui.config.redstone=红石
 gui.config.owner=拥有者
+gui.config.mnet.address=Address
 gui.label.button.save=保存
 gui.label.button.remove=删除
 gui.label.button.add=添加
@@ -332,25 +352,25 @@ death.attack.android_transformation=%1$s 结束了他作为生命体的存在
 ##########################################################################################################
 # Tasks
 
-task.state.-1.name=无效
-task.state.-1.description=该任务出现错误.
-task.state.0.name=未知
-task.state.0.description=未知
-task.state.1.name=等待中
-task.state.1.description=等待寻找接收器.
-task.state.2.name=队列中
-task.state.2.description=接收器已定位.\n等待过程中.
-task.state.3.name=处理中
-task.state.3.description=等待加工结束.
-task.state.4.name=完成
-task.state.4.description=任务已完成.
+task.state.INVALID.name=无效
+task.state.INVALID.description=该任务出现错误.
+task.state.UNKNOWN.name=未知
+task.state.UNKNOWN.description=未知
+task.state.WAITING.name=等待中
+task.state.WAITING.description=等待寻找接收器.
+task.state.QUEUED.name=队列中
+task.state.QUEUED.description=接收器已定位.\n等待过程中.
+task.state.PROCESSING.name=处理中
+task.state.PROCESSING.description=等待加工结束.
+task.state.FINISHED.name=完成
+task.state.FINISHED.description=任务已完成.
 
-task.store_pattern.state.1.description=搜索模式存储空间.
-task.store_pattern.state.2.description=队列中.\n等待过程中.
-task.store_pattern.state.3.description=正在存储物品模式.
-task.store_pattern.state.4.description=成功存储物品模式.
+task.store_pattern.state.WAITING.description=搜索模式存储空间.
+task.store_pattern.state.QUEUED.description=队列中.\n等待过程中.
+task.store_pattern.state.PROCESSING.description=正在存储物品模式.
+task.store_pattern.state.FINISHED.description=成功存储物品模式.
 
-task.replicate_pattern.state.1.description=搜索可用重组仓.
+task.replicate_pattern.state.WAITING.description=搜索可用重组仓.
 
 info.mo.updater.download=下载
 info.mo.updater.hover=点击下载最新版本.
@@ -369,6 +389,7 @@ config.client.name=客户端选项
 config.server.name=服务器选项
 config.starmap.name=星图选项
 config.ore_gen_blacklist.name=矿物黑名单
+config.abilities.name=机器人能力
 
 ##########################################################################################################
 # Chat Alerts
