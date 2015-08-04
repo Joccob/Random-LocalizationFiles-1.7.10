@@ -106,16 +106,16 @@ text.vampirism.coffin.wrong_dimension=你在该世界中无法入睡.
 text.vampirism.unknown_command=未知血族指令
 
 #Skill
-skill.vampirism.bat_skill=Toggle Batmode
-skill.vampirism.change_weather=Weather
-skill.vampirism.cancel=Cancel
-skill.vampirism.freeze=Freeze
-skill.vampirism.invisibility=Invisibility
-skill.vampirism.regen=Regeneration
-skill.vampirism.revive_fallen=Revive Fallen
-skill.vampirism.summon_bats=Summon Bats
-skill.vampirism.teleport=Teleport
-skill.vampirism.vampire_rage=Vampire Rage
+skill.vampirism.bat_skill=化蝠
+skill.vampirism.change_weather=万象瞬变
+skill.vampirism.cancel=取消
+skill.vampirism.freeze=定身
+skill.vampirism.invisibility=幽形幻影
+skill.vampirism.regen=涅槃重生
+skill.vampirism.revive_fallen=亡灵之触
+skill.vampirism.summon_bats=群蝠乱舞
+skill.vampirism.teleport=移形换位
+skill.vampirism.vampire_rage=血族之怒
 
 #Minion command
 minioncommand.vampirism.attackhostilenoplayers=攻击敌对生物
