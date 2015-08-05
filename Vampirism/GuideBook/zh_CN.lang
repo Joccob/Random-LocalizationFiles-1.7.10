@@ -1,17 +1,17 @@
 #X-Generator: crowdin.com
 #General
-guide.vampirism.book.title=Vampirism Guide
+guide.vampirism.book.title=血族手册
 guide.vampirism.welcomeMessage=guide.vampirism.welcomeMessage
-guide.vamprism.book.name=Vampirism Guide
+guide.vamprism.book.name=血族手册
 
 #Getting Started
-guide.vampirism.gettingStarted.category=Getting Started
-guide.vampirism.gettingStarted.overview.title=Overview
-guide.vampirism.gettingStarted.overview.text=Vampirism is a mod that adds a whole new way of playing Minecraft. Previously you probably did not go out at night, but as a Vampire, you are starting to like the darkness and will develop a thirst for killing \:) \n When wandering around the world you might notice there are more villages in more biomes, in which you can assuage one's thirst. The villages in swamps are especially interesting.
-guide.vampirism.gettingStarted.firstSteps.title=First steps
-guide.vampirism.gettingStarted.firstSteps.text=You will start out as a regular player, to become a vampire you have to be bitten by a vampire. So either let them hit you on purpose or just wait until it happens by accident. When they hit you there is a chance, you receive a potion effect called "Sanguinare Vampiris" which lasts a Minecraft day. After the potion has ended, you become a vampire. In case you don't want to become one, you can always cancel the effect with a milk bucket. Alternatively you can right-click with vampire fangs in you hand to inject some blood into you and get the same effect as above.
-guide.vampirism.gettingStarted.asAVampire.title=As a vampire
-guide.vampirism.gettingStarted.asAVampire.text=Once you become a Vampire, one of your main sources of blood (at least the best source) are villagers and you should find plenty of those. Watch out though, there are still Vampires that may attack you, same as when you are a regular player. The Vampire Hunters, however, will not attack you, when you are a level 1 Vampire.\nAs a Vampire, you need to watch how much blood you have. Suck blood by pressing 'F' from Villagers and from some mobs to get more blood. Extra blood can be stored in a Blood Bottle. If you want to transfer blood between the Blood Bottle and the Blood Bar use right click or shift right click on the mouse. You will know which mobs you can't get blood from, as you will receive damage trying to suck their blood. In the beginning you will be a level 1 vampire (the level is displayed above your XP-level) and have improved speed, health and strength.\nTo get to higher vampire levels you have to perform different rituals. When you get above a certain level, Vampires will no longer attack you, but Vampire Hunters will. As you advance through levels your abilities improve, but some disadvantages like sun damage might appear.
+guide.vampirism.gettingStarted.category=新手入门
+guide.vampirism.gettingStarted.overview.title=简介
+guide.vampirism.gettingStarted.overview.text=血族传说是一个完全改变了MC玩法的模组. 以前你可能很少夜间出行, 但作为一名血族成员, 你开始喜欢黑夜并开始产生杀戮的渴望\:) \n 当你在世界中闲逛的时候你可能会注意到在不同的生态群系中生活着大量的村民, 他们能够满足你的欲望. 而在沼泽中生活的村民则格外有趣.
+guide.vampirism.gettingStarted.firstSteps.title=第一步
+guide.vampirism.gettingStarted.firstSteps.text=你将以一个普通玩家的身份开始, 你需要被一个吸血鬼咬过之后才能够成为血族. 因此要么故意让他们伤害你, 要么等到它自然发生. 当他们咬中你之后, 你有几率获得一种叫做"吸血猩红热"的效果并会持续一个MC日. 在效果消失后, 你将成为一名血族成员. 如果期间你改变了主意, 你随时能够通过喝牛奶来解除效果. 你也可以通过右键血族之牙为自己注射一些血族血液从而获得上述的猩红热效果.
+guide.vampirism.gettingStarted.asAVampire.title=作为一名血族
+guide.vampirism.gettingStarted.asAVampire.text=当你转变成吸血鬼之后, 最为主要的鲜血来源(至少是最好的来源)便是村民并且你需要找到成群的村民. 不过要小心, 依然会有吸血鬼会攻击你, 同你还是普通玩家时一样. 不过恶魔猎人在你还是一级血族时并不会攻击你.\n作为一名血族, 你需要时刻注意你所剩余的鲜血. 默认按'F'键从村民或一些怪物身上吸血. 多余的鲜血可以被储存在血瓶中. 如果你想在血槽和血瓶之间转换鲜血你需要右键或潜行右键. 当你吸取一些怪物的鲜血时你可能会受到伤害, 这说明你无法通过该怪物来补充鲜血. 一开始你将是一个一级的血族(等级将会在你的经验槽上方显示)并伴有生命,速度和力量上的加成，.\n你需要通过不同的祭坛仪式来完成升级. 当你达到一定级别后, 吸血鬼就会停止对你的攻击, 不过与此同时你将受到恶魔猎人的追杀. 随着你等级的提升你的能力也会随之增强, 而且一些弱点,例如惧怕阳光,也会消失.
 
 #Items and Blocks
 guide.vampirism.itemsAndBlocks.category=Items and Blocks
