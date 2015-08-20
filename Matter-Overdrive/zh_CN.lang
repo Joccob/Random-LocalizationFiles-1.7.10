@@ -27,7 +27,7 @@ item.pattern_drive.name=模式存储单元
 item.pattern_drive.details=可存储2个物品模式
 item.earl_gray_tea.name=格雷伯爵茶
 item.romulan_ale.name=罗慕兰麦酒
-item.romulan_ale.name=原产自罗慕兰醇香醉人的酒饮料
+item.romulan_ale.details=原产自罗慕兰醇香醉人的酒饮料
 item.security_protocol.empty.name=安全协定
 item.security_protocol.claim.name=安全协定[设置]
 item.security_protocol.claim.description=设置机器
@@ -62,12 +62,19 @@ item.creative_pattern_drive.name=创造模式储存单元
 item.creative_pattern_drive.details=包含绝大多数可重组物品\n潜行右键重新加载
 item.network_flash_drive.name=网络闪存驱动器
 item.network_flash_drive.details=物质网络设备中的过滤器
+item.energy_pack.name=能量包
+item.energy_pack.details=用于快速充电\n让能量武器'重装弹药'
+item.phaser_rifle.name=相位来复枪
+item.transport_flash_drive.name=传送闪存驱动器
+item.transport_flash_drive.details=记录地点以便快速使用传送器
 
 item.upgrade.speed.name=速度升级
 item.upgrade.power.name=能耗升级
 item.upgrade.failsafe.name=故障保护升级
 item.upgrade.range.name=范围升级
 item.upgrade.power_storage.name=储能升级
+item.upgrade.hyper_speed.name=高级速度升级
+item.upgrade.matter_storage.name=物质存储升级
 
 item.weapon_module_color.name=颜色模块
 item.weapon_module_barrel.damage.name=双锂聚焦矩阵
@@ -114,6 +121,10 @@ tile.matter_analyzer.details=分析物品模式
 tile.dilithium_ore.name=双锂矿石
 tile.tritanium_ore.name=钛金矿石
 tile.tritanium_block.name=钛金块
+tile.heavy_matter_pipe.name=重型物质运输管道
+tile.heavy_matter_pipe.details=运输等离子态物质
+tile.holo_sign.name=全息显示板
+tile.force_glass.name=钛金玻璃
 
 //////////// Pattern Storage ////////////
 tile.pattern_storage.name=模式存储仓
@@ -164,21 +175,25 @@ entity.failed_pig.name=实验失败的猪
 entity.failed_chicken.name=实验失败的鸡
 entity.failed_cow.name=实验失败的牛
 entity.failed_sheep.name=实验失败的羊
+entity.mad_scientist.name=疯狂科学家
+
+##########################################################################################################
+# Dialogs
+
+dialog.generic.quit.questions=下次再见.;我必须要走了.;我有急事要办.;再见.;告辞.;拜拜.
+dialog.generic.back.questions=别在意.;让我们聊些其他的吧.;关我什么事.
+dialog.generic.trade.questions=我想做个交易.;让我们做个交易吧.;让我看看你的货物.;你都卖些什么?;
 
 //////////// Mad Scientist ///////////////
-entity.mad_scientist.name=疯狂科学家
-entity.mad_scientist.line.fail.0=你没有集齐所有的机器人部件!
-entity.mad_scientist.line.fail.1=我绝不会把我的部件给你!
-entity.mad_scientist.line.fail.2=你需要所有的机器人部件，不然你会死亡!
-entity.mad_scientist.line.fail.3=少了这些零部件我什么都做不了!
-entity.mad_scientist.line.0=我不和人类打交道. 但如果你给我全套机器人部件，我可以帮助你摆脱肉身!
-entity.mad_scientist.line.1=天哪! 简直无法直视. 你太脆弱了! 带给我一套机器人部件，不然一切都迟了!
-entity.mad_scientist.line.2=你还好么? 你看起来糟透了! 你是怎么在这具肉身坚持下来的? 如果你给我带来一套机器人组件, 或许我能尝试帮你解决这个问题.
-entity.mad_scientist.line.success.0=完成了. 现在离开去告知他人吧!
-entity.mad_scientist.line.success.1=它活了! 它活了! 哇哈哈哈哈哈! 它活了!
-entity.mad_scientist.line.success.2=你现在是我们中的一员! 去吧我的孩子!
-entity.mad_scientist.line.success.3=一切看起来都很好, 就是忘记把你鼻子按上去了.
-
+dialog.mad_scientist.convert.question=我有所有的机器人部件!
+dialog.mad_scientist.requirements.line=终于!<br>摆脱那具脆弱的肉体是一个明智的选择.<br>在开始之前, 唯一的问题就是我需要你给我带来一套机器人组件.
+dialog.mad_scientist.requirements.question=我想要成为一名机甲战士.
+dialog.mad_scientist.main.line.human=我不和人类打交道.;天哪! 简直无法直视. 你太脆弱了!;你还好么? 你看起来糟透了! 你是怎么在这具肉身坚持下来的?
+dialog.mad_scientist.main.line.android=啊 %1$s, 很高兴见到你! 来这有什么事么?;嘿. 你今天看起来棒极了!;看起来你的左眼好像有些错位了. 我很乐意帮你修复它.
+dialog.mad_scientist.undo.line=你为什么想要这么做? 唯一的办法就是吃掉一颗蓝色药丸. 你可以在地牢中找到它, 不过最好的办法是从别人手中买到. 我想我的车间里可能有一些. 我需要去查看一下.
+dialog.mad_scientist.undo.question=我如何逆转这一过程!
+dialog.mad_scientist.whatDidYouDo.line=你现在已经是机器人了! 你将不需要食物, 睡眠以及氧气. 你可以在机器人装配台为你自己升级一些实用的能力, 而且你将会看到并做到一些你无法想象的事情.
+dialog.mad_scientist.whatDidYouDo.question=你对我做了些什么?
 
 ##########################################################################################################
 # Creative Panels
@@ -198,6 +213,7 @@ upgradetype.SecondOutput.name=次级输出
 upgradetype.Fail.name=故障
 upgradetype.Range.name=范围
 upgradetype.PowerStorage.name=能量存储
+upgradetype.MatterStorage.name=物质存储
 
 ##########################################################################################################
 # Weapon Stats
@@ -278,6 +294,10 @@ gui.label.button.remove=删除
 gui.label.button.add=添加
 gui.label.button.reset=重置
 gui.label.button.scout=派遣侦察飞船
+gui.label.button.new=新建
+gui.label.button.import=进占
+gui.label.button.import.too_far=目的地太远
+gui.label.auto_line_size=Auto Line Size
 
 ### GUI Tooltips ###
 gui.tooltip.starmap.no_ship_space=没有足够的舰船空间
@@ -402,3 +422,8 @@ alert.no_rights.dismantle=只有拥有者可以拆除 $0
 alert.new_update=有新版本可用!
 alert.starmap.ship_arrive=§3%1$s &r 已经到达 §3%1$s!
 alert.starmap.on_build=§3%1$s §r 已在 §3%2$s§r 建立!
+
+#############################################################################################################
+# Enchantments
+
+enchantment.matteroverdrive.weapon.damage=超频
