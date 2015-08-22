@@ -67,6 +67,8 @@ item.energy_pack.details=用于快速充电\n让能量武器'重装弹药'
 item.phaser_rifle.name=相位来复枪
 item.transport_flash_drive.name=传送闪存驱动器
 item.transport_flash_drive.details=记录地点以便快速使用传送器
+item.matter_container.name=空物质仓
+item.matter_container_full.name=满物质仓
 
 item.upgrade.speed.name=速度升级
 item.upgrade.power.name=能耗升级
@@ -410,6 +412,8 @@ config.server.name=服务器选项
 config.starmap.name=星图选项
 config.ore_gen_blacklist.name=矿物黑名单
 config.abilities.name=机器人能力
+config.entities.name=生物
+config.debug.name=Debug
 
 ##########################################################################################################
 # Chat Alerts
@@ -427,3 +431,7 @@ alert.starmap.on_build=§3%1$s §r 已在 §3%2$s§r 建立!
 # Enchantments
 
 enchantment.matteroverdrive.weapon.damage=超频
+
+###############################################################################################################
+# Fluids
+fluid.matter_plasma.name=等离子物质
