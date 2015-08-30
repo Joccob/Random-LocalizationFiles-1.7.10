@@ -54,11 +54,6 @@ tile.CC2:CompressedArgonite.name=Argonite Block
 tile.CC2:CompressedAzulyte.name=Azulyte Block
 tile.CC2:CompressedPromethium.name=Promethium Block
 
-tile.CC2:DungeonStone.name=Dungeon Stone
-tile.CC2:DungeonPillar.name=Dungeon Pillar
-tile.CC2:DungeonBlock.name=Dungeon Block
-tile.CC2:DungeonDoor.name=Dungeon Door
-
 # Item localizations
 item.CC2:OnyxGem.name=Onyx Gem
 item.CC2:ChaosGem.name=Chaos Gem
@@ -108,6 +103,7 @@ item.CC2:Fertilizer.name=Fertilizer
 item.CC2:Upgrade.name=Upgrade
 
 item.CC2:SmallNet.name=Small Fishing Net
+item.CC2:Harpoon.name=Harpoon
 
 item.CC2:StoneHook.name=Stone Hook
 item.CC2:IronHook.name=Iron Hook
@@ -120,11 +116,15 @@ item.CC2:RawFishShrimp.name=Raw Shrimp
 item.CC2:RawFishAnchovies.name=Raw Anchovies
 item.CC2:RawFishTrout.name=Raw Trout
 item.CC2:RawFishSalmon.name=Raw Salmon
+item.CC2:RawFishTuna.name=Raw Tuna
+item.CC2:RawFishBass.name=Raw Bass
 
 item.CC2:CookedFishShrimp.name=Cooked Shrimp
 item.CC2:CookedFishAnchovies.name=Cooked Anchovies
 item.CC2:CookedFishTrout.name=Cooked Trout
 item.CC2:CookedFishSalmon.name=Cooked Salmon
+item.CC2:CookedFishTuna.name=Cooked Tuna
+item.CC2:CookedFishBass.name=Cooked Bass
 
 item.CC2:UltiAmulet.name=Ultimate Amulet
 
@@ -195,7 +195,10 @@ item.CC2:BookOfTravelling.name=Book Of Travelling
 
 item.CC2:ItemEntityLivingBeetle.name=Spawn Beetle
 
-item.CC2:ItemDungeonSpawn.name=Spawn Dungeon
+item.CC2:StoneGrave.name=Stone Grave
+item.CC2:GoldenGrave.name=Golden Grave
+item.CC2:OnyxGrave.name=Onyx Grave
+item.CC2:InfinityGrave.name=Infinity Grave
 
 # Tools localizations
 item.CC2:UltiMattock.name=Ultimate Mattock
