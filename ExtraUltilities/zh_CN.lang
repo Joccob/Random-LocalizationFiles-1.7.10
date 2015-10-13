@@ -114,7 +114,7 @@ tile.extrautils:angelBlock.name=天使方块
 tile.extrautils:budoff.0.name=方块更新检测器
 tile.extrautils:budoff.3.name=方块更新检测器(高级)
 
-tile.extrautils:chestFull.name=大型箱
+tile.extrautils:chestFull.name=微型箱
 tile.extrautils:chestMini.name=迷你箱
 
 tile.extrautils:colorBlock.0.name=彩色BLOCKNAME(白色)
@@ -249,6 +249,8 @@ tile.extrautils:greenscreen.15.name=永夜之纯色光屏(黑)
 tile.extrautils:magnumTorch.name=卓越火炬
 tile.extrautils:peaceful_table_top.name=和平之桌
 tile.extrautils:pipes.0.name=运输管道
+tile.extrautils:pipes.15.name=运输管道(单向)
+tile.extrautils:pipes.7.name=运输管道(禁用连接)
 tile.extrautils:pipes.10.name=分配管道
 tile.extrautils:pipes.11.name=能量管道
 tile.extrautils:pipes.12.name=交错管道
