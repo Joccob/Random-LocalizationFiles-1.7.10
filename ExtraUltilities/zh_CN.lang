@@ -95,7 +95,7 @@ item.extrautils:lawSword.name=鬼哭
 item.extrautils:lawSword.tooltip=不幸诅咒之刃
 
 
-attribute.name.extrautils.armorPiercingAttackDamage=装甲穿刺伤害
+attribute.name.extrautils.armorPiercingAttackDamage=穿甲伤害
 attribute.name.extrautils.godSlayingAttackDamage=神圣伤害
 attribute.name.extrautils.freezeProtection=冰冻保护
 
@@ -105,34 +105,34 @@ itemGroup.extraUtil_FMP=更多实用设备|小方块
 
 material.extrautils.bedrockium=基岩
 material.extrautils.bedrockium.ability=沉重
-material.extrautils.magicwood=魔木
+material.extrautils.magicwood=魔法木头
 material.extrautils.magicwood.ability=可塑
-material.extrautils.unstableIngot=不稳定感应
+material.extrautils.unstableIngot=不稳定金属
 material.extrautils.unstableIngot.ability=精确!
 
 tile.extrautils:angelBlock.name=天使方块
 tile.extrautils:budoff.0.name=方块更新检测器
 tile.extrautils:budoff.3.name=方块更新检测器(高级)
 
-tile.extrautils:chestFull.name=微型箱
+tile.extrautils:chestFull.name=大型箱
 tile.extrautils:chestMini.name=迷你箱
 
-tile.extrautils:colorBlock.0.name=染色 BLOCKNAME (白色)
-tile.extrautils:colorBlock.1.name=染色 BLOCKNAME (橙色)
-tile.extrautils:colorBlock.2.name=染色 BLOCKNAME (品红色)
-tile.extrautils:colorBlock.3.name=染色 BLOCKNAME (淡蓝色)
-tile.extrautils:colorBlock.4.name=染色 BLOCKNAME (黄色)
-tile.extrautils:colorBlock.5.name=染色 BLOCKNAME (黄绿色)
-tile.extrautils:colorBlock.6.name=染色 BLOCKNAME (粉色)
-tile.extrautils:colorBlock.7.name=染色 BLOCKNAME (灰色)
-tile.extrautils:colorBlock.8.name=染色 BLOCKNAME (浅灰色)
-tile.extrautils:colorBlock.9.name=染色 BLOCKNAME (青色)
-tile.extrautils:colorBlock.10.name=染色 BLOCKNAME (紫色)
-tile.extrautils:colorBlock.11.name=染色 BLOCKNAME (蓝色)
-tile.extrautils:colorBlock.12.name=染色 BLOCKNAME (棕色)
-tile.extrautils:colorBlock.13.name=染色 BLOCKNAME (绿色)
-tile.extrautils:colorBlock.14.name=染色 BLOCKNAME (红色)
-tile.extrautils:colorBlock.15.name=染色 BLOCKNAME (黑色)
+tile.extrautils:colorBlock.0.name=彩色BLOCKNAME(白色)
+tile.extrautils:colorBlock.1.name=彩色BLOCKNAME(橙色)
+tile.extrautils:colorBlock.2.name=彩色BLOCKNAME(品红色)
+tile.extrautils:colorBlock.3.name=彩色BLOCKNAME(淡蓝色)
+tile.extrautils:colorBlock.4.name=彩色BLOCKNAME(黄色)
+tile.extrautils:colorBlock.5.name=彩色BLOCKNAME(黄绿色)
+tile.extrautils:colorBlock.6.name=彩色BLOCKNAME(粉色)
+tile.extrautils:colorBlock.7.name=彩色BLOCKNAME(灰色)
+tile.extrautils:colorBlock.8.name=彩色BLOCKNAME(浅灰色)
+tile.extrautils:colorBlock.9.name=彩色BLOCKNAME(青色)
+tile.extrautils:colorBlock.10.name=彩色BLOCKNAME(紫色)
+tile.extrautils:colorBlock.11.name=彩色BLOCKNAME(蓝色)
+tile.extrautils:colorBlock.12.name=彩色BLOCKNAME(棕色)
+tile.extrautils:colorBlock.13.name=彩色BLOCKNAME(绿色)
+tile.extrautils:colorBlock.14.name=彩色BLOCKNAME(红色)
+tile.extrautils:colorBlock.15.name=彩色BLOCKNAME(黑色)
 
 tile.extrautils:chandelier.name=奢华吊顶灯
 
@@ -249,8 +249,6 @@ tile.extrautils:greenscreen.15.name=永夜之纯色光屏(黑)
 tile.extrautils:magnumTorch.name=卓越火炬
 tile.extrautils:peaceful_table_top.name=和平之桌
 tile.extrautils:pipes.0.name=运输管道
-tile.extrautils:pipes.15.name=运输管道(单向)
-tile.extrautils:pipes.7.name=运输管道(禁用连接)
 tile.extrautils:pipes.10.name=分配管道
 tile.extrautils:pipes.11.name=能量管道
 tile.extrautils:pipes.12.name=交错管道
@@ -263,9 +261,9 @@ tile.extrautils:plant/ender_lilly.name=末影百合种子
 tile.extrautils:sound_muffler.0.name=消音器
 tile.extrautils:sound_muffler.1.name=消音器(仿若无雨)
 tile.extrautils:spike_base.name=铁锥
-tile.extrautils:spike_base_gold.name=黄金锥刺
-tile.extrautils:spike_base_diamond.name=钻石锥刺
-tile.extrautils:spike_base_wood.name=木质锥刺
+tile.extrautils:spike_base_gold.name=金锥
+tile.extrautils:spike_base_diamond.name=钻石锥
+tile.extrautils:spike_base_wood.name=木锥
 tile.extrautils:timer.name=红石钟
 tile.extrautils:trading_post.name=贸易站
 tile.extrautils:trashcan.name=垃圾桶
