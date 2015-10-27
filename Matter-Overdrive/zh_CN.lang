@@ -44,6 +44,7 @@ item.rouge_android_part.head.name=机器人头部
 item.rouge_android_part.arms.name=机器人手部
 item.rouge_android_part.legs.name=机器人腿部
 item.rouge_android_part.chest.name=机器人躯干
+item.tritanium_spine.name=钛金脊柱
 item.forcefield_emitter.name=力场发生器
 item.hc_battery.name=高能电池
 item.ship_factory.name=舰船工厂
@@ -72,6 +73,10 @@ item.matter_container_full.name=满物质仓
 item.tritanium_nugget.name=钛金粒
 item.tritanium_spine.name=钛金脊椎
 item.data_pad.name=便携数据仪
+item.data_pad.details=包含超能物质的全部信息
+item.omni_tool.name=多功能采集枪
+item.android_pill_yellow.name=黄色药丸
+item.android_pill_yellow.details=用于重置所有解锁技能
 
 item.upgrade.speed.name=速度升级
 item.upgrade.power.name=能耗升级
@@ -86,6 +91,8 @@ item.weapon_module_barrel.damage.name=双锂聚焦矩阵
 item.weapon_module_barrel.fire.name=高能燃烧弹
 item.weapon_module_barrel.explosion.name=爆裂电磁炮
 item.weapon_module_barrel.heal.name=再生转换器
+
+item.info.configured=已配置
 
 ##########################################################################################################
 # Tile Entities
@@ -152,6 +159,7 @@ tile.gravitational_stabilizer.name=重力稳定器
 tile.gravitational_stabilizer.details=用于减弱重力异常点的影响
 tile.matter_recycler.name=物质循环仓
 tile.matter_recycler.details=用于物品循环, 为分解做准备
+tile.matter_plasma.name=等离子物质
 
 //////////// Fusion Reactor ////////////
 tile.fusion_reactor_controller.name=聚变反应堆控制器
@@ -183,6 +191,25 @@ entity.failed_cow.name=实验失败的牛
 entity.failed_sheep.name=实验失败的羊
 entity.mad_scientist.name=疯狂科学家
 
+///////////// Decorative ////////////////////
+tile.decorative.stripes.name=黄色条纹板材
+tile.decorative.coils.name=线圈
+tile.decorative.clean.name=平滑钛金板材
+tile.decorative.vent.dark.name=深色通风口
+tile.decorative.vent.bright.name=通风口
+tile.decorative.holo_matrix.name=全息矩阵
+tile.decorative.tritanium_plate.name=钛金板材
+tile.decorative.carbon_fiber_plate.name=碳纤维板材
+tile.decorative.matter_tube.name=物质管道
+tile.decorative.beams.name=钛金格栅
+tile.decorative.floor_tiles.name=地板瓷砖
+tile.decorative.floor_tiles_green.name=绿色地板瓷砖
+tile.decorative.floor_noise.name=油地毡地面
+tile.decorative.tritanium_plate_stripe.name=导向钛金板材
+tile.decorative.floor_tile_white.name=白色瓷砖
+tile.decorative.white_plate.name=软壁隔板
+tile.decorative.separator.name=钛金轨道
+
 ##########################################################################################################
 # Dialogs
 
@@ -209,6 +236,7 @@ itemGroup.tabMatterOverdrive_upgrades=超能物质|升级
 itemGroup.tabMatterOverdrive_food=超能物质|食物
 itemGroup.tabMatterOverdrive_ships=超能物质|舰船
 itemGroup.tabMatterOverdrive_buildings=超能物质|建筑
+itemGroup.tabMatterOverdrive_decorative=超能物质|装饰
 
 ##########################################################################################################
 # Upgrade Types
@@ -450,6 +478,10 @@ fluid.matter_plasma.name=等离子物质
 
 ##########################################################################################################
 # Guides
+guide.category.general.name=基础
+guide.category.weapons.name=武器
+guide.category.android.name=机器人
+
 guide.group.machines.name=机器
 guide.group.ore.name=矿物
 guide.group.matter.name=物质
@@ -479,4 +511,4 @@ guide.entry.upgrades.name=升级
 # modifiers
 
 modifier.bionic.max_health=生命上限
-modifier.bionic.glitch_time=Glitch Time
+modifier.bionic.glitch_time=故障时间
