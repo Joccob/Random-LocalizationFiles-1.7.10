@@ -367,13 +367,13 @@ link.pos.set.name=Link data set
 link.completed.name=Link Created
 
 # Items
-item.voltzengine:screwdriver.name=Screwdriver
-item.voltzengine:screwdriver.tooltip=Used to configure blocks. Shift-right click to change mode.
+item.voltzengine:screwdriver.name=螺丝刀
+item.voltzengine:screwdriver.tooltip=用于配置方块. Shift右键能够转换模式.
 
 # Chips
-item.voltzengine:circuits.circuitBasic.name=Basic Circuit
-item.voltzengine:circuits.circuitAdvanced.name=Advanced Circuit
-item.voltzengine:circuits.circuitElite.name=Elite Circuit
+item.voltzengine:circuits.circuitBasic.name=基础电路板
+item.voltzengine:circuits.circuitAdvanced.name=高级电路板
+item.voltzengine:circuits.circuitElite.name=精密电路板
 
 #Misc
 # %0 goes before the localized name of the shift key, %1 goes after
@@ -383,7 +383,7 @@ info.recipes.tooltip=按住#0J#1查看材料
 info.energylevel.waila=当前能量等级
 info.energycapacity.waila=最大能量等级
 
-info.isCraftingOnlyItem=Crafting Item
+info.isCraftingOnlyItem=合成物品
 
 info.voltzengine:explosive.name=爆破性
 info.voltzengine:explosive.size.name=规格
