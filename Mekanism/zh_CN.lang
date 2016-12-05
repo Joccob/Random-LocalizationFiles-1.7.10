@@ -11,9 +11,10 @@ item.EnergyTablet.name=能量板
 item.SpeedUpgrade.name=速度升级
 item.EnergyUpgrade.name=能量升级
 item.FilterUpgrade.name=过滤升级
-item.GasUpgrade.name=燃气升级
+item.MufflingUpgrade.name=降噪升级
+item.GasUpgrade.name=气体升级
 item.Robit.name=机器人
-item.AtomicDisassembler.name=原子分解器
+item.AtomicDisassembler.name=原子分解机
 item.ElectricBow.name=电动弓
 item.EnrichedIron.name=富集铁
 item.CompressedCarbon.name=压缩碳
@@ -37,7 +38,7 @@ item.LithiumBucket.name=锂桶
 item.HeavyWaterBucket.name=重水桶
 item.FreeRunners.name=自由助跑器
 item.ArmoredJetpack.name=装甲喷气背包
-item.FilterCard.name=过滤卡
+item.ConfigurationCard.name=配置卡
 item.SeismicReader.name=地震读取器
 item.HDPEPellet.name=HDPE弹
 item.HDPERod.name=HDPE棒
@@ -47,15 +48,25 @@ item.Substrate.name=基片
 item.Flamethrower.name=喷火器
 item.GaugeDropper.name=滴量器
 item.BioFuel.name=生物燃料
+item.CraftingFormula.name=合成配方
 
 //Control Circuits
 item.BasicControlCircuit.name=基础控制电路
 item.AdvancedControlCircuit.name=高级控制电路
-item.EliteControlCircuit.name=精制控制电路
+item.EliteControlCircuit.name=精英控制电路
 item.UltimateControlCircuit.name=终极控制电路
 
 //Gas Tank
-tile.GasTank.GasTank.name=燃气储罐
+tile.GasTankBasic.name=基础燃气储罐
+tile.GasTankAdvanced.name=高级燃气储罐
+tile.GasTankElite.name=精英燃气储罐
+tile.GasTankUltimate.name=终极燃气储罐
+
+//Fluid Tank (part of MachineBlock2, naming handled differently)
+tile.FluidTankBasic.name=基础液体储罐
+tile.FluidTankAdvanced.name=高级液体储罐
+tile.FluidTankElite.name=精英液体储罐
+tile.FluidTankUltimate.name=终极液体储罐
 
 //Cardboard Box
 tile.CardboardBox.name=纸箱
@@ -73,29 +84,37 @@ tile.BasicBlock.RefinedObsidian.name=强化黑曜石
 tile.BasicBlock.CharcoalBlock.name=煤炭方块
 tile.BasicBlock.RefinedGlowstone.name=强化荧石
 tile.BasicBlock.SteelBlock.name=钢方块
-tile.BasicBlock.Bin.name=箱柜
+tile.BasicBlock.BinBasic.name=基础箱柜
+tile.BasicBlock.BinAdvanced.name=高级箱柜
+tile.BasicBlock.BinElite.name=精英箱柜
+tile.BasicBlock.BinUltimate.name=终极箱柜
 tile.BasicBlock.TeleporterFrame.name=传送框架
 tile.BasicBlock.SteelCasing.name=钢质机壳
 tile.BasicBlock.DynamicTank.name=动态储罐
-tile.BasicBlock.DynamicGlass.name=动态玻璃
+tile.BasicBlock.StructuralGlass.name=结构玻璃
 tile.BasicBlock.DynamicValve.name=动态阀门
 tile.BasicBlock.CopperBlock.name=铜块
 tile.BasicBlock.TinBlock.name=锡块
-tile.BasicBlock.SolarEvaporationController.name=盐化控制器
-tile.BasicBlock.SolarEvaporationValve.name=盐化阀门
+tile.BasicBlock.ThermalEvaporationController.name=热力蒸馏控制器
+tile.BasicBlock.ThermalEvaporationValve.name==热力蒸馏阀门
 
 //Basic Block 2 (second ID iteration)
-tile.BasicBlock2.SalinationBlock.name=盐化方块
+tile.BasicBlock2.ThermalEvaporationBlock.name=热力蒸馏方块
 tile.BasicBlock2.InductionCasing.name=输导套管
 tile.BasicBlock2.InductionPort.name=输导端口
 tile.BasicBlock2.InductionCellBasic.name=基础输导元件
 tile.BasicBlock2.InductionCellAdvanced.name=高级输导元件
-tile.BasicBlock2.InductionCellElite.name=精制输导元件
+tile.BasicBlock2.InductionCellElite.name=精英输导元件
 tile.BasicBlock2.InductionCellUltimate.name=终极输导元件
 tile.BasicBlock2.InductionProviderBasic.name=基础输导供应器
 tile.BasicBlock2.InductionProviderAdvanced.name=高级输导供应器
-tile.BasicBlock2.InductionProviderElite.name=精制输导供应器
+tile.BasicBlock2.InductionProviderElite.name=精英输导供应器
 tile.BasicBlock2.InductionProviderUltimate.name=终极输导供应器
+tile.BasicBlock2.SuperheatingElement.name=热导元件
+tile.BasicBlock2.PressureDisperser.name=分压元件
+tile.BasicBlock2.BoilerCasing.name=锅炉外壳
+tile.BasicBlock2.BoilerValve.name=锅炉阀门
+tile.BasicBlock2.SecurityDesk.name=机密桌
 
 //Machine Block
 tile.MachineBlock.EnrichmentChamber.name=富集仓
@@ -126,16 +145,19 @@ tile.MachineBlock2.ChemicalWasher.name=化学清洗机
 tile.MachineBlock2.ChemicalCrystallizer.name=化学结晶器
 tile.MachineBlock2.SeismicVibrator.name=地震振动器
 tile.MachineBlock2.PressurizedReactionChamber.name=加压反应室
-tile.MachineBlock2.PressurizedReactionChamber.short.name=加压反应室
-tile.MachineBlock2.PortableTank.name=携带式水槽
+tile.MachineBlock2.PressurizedReactionChamber.short.name=PRC
 tile.MachineBlock2.FluidicPlenisher.name=流体装填机
-tile.MachineBlock2.Laser.name=镭射器
-tile.MachineBlock2.LaserAmplifier.name=镭射器增幅器
-tile.MachineBlock2.LaserTractorBeam.name=镭射器牵引光束
+tile.MachineBlock2.Laser.name=激光
+tile.MachineBlock2.LaserAmplifier.name=激光增幅器
+tile.MachineBlock2.LaserTractorBeam.name=激光牵引光束
 
 //Machine Block 3 (third ID iteration)
+tile.MachineBlock3.QuantumEntangloporter.name=量子传送装置
 tile.MachineBlock3.SolarNeutronActivator.name=太阳能中子活化器
 tile.MachineBlock3.Oredictionificator.name=矿典转换器
+tile.MachineBlock3.ResistiveHeater.name=电阻加热装置
+tile.MachineBlock3.FormulaicAssemblicator.name=公式装配器
+tile.MachineBlock3.FuelwoodHeater.name=木料加热器
 
 //Plastic
 tile.PlasticBlock.name=塑料方块
@@ -163,22 +185,26 @@ tile.OreBlock.TinOre.name=锡矿石
 //Transmitters
 item.MultipartTransmitter.BasicPressurizedTube.name=基础加压管道
 item.MultipartTransmitter.AdvancedPressurizedTube.name=高级加压管道
-item.MultipartTransmitter.ElitePressurizedTube.name=精制加压管道
+item.MultipartTransmitter.ElitePressurizedTube.name=精英加压管道
 item.MultipartTransmitter.UltimatePressurizedTube.name=终极加压管道
 item.MultipartTransmitter.BasicUniversalCable.name=基础通用线缆
 item.MultipartTransmitter.AdvancedUniversalCable.name=高级通用线缆
-item.MultipartTransmitter.EliteUniversalCable.name=精制通用线缆
+item.MultipartTransmitter.EliteUniversalCable.name=精英通用线缆
 item.MultipartTransmitter.UltimateUniversalCable.name=终极通用线缆
 item.MultipartTransmitter.BasicMechanicalPipe.name=基础机械管道
 item.MultipartTransmitter.AdvancedMechanicalPipe.name=高级机械管道
-item.MultipartTransmitter.EliteMechanicalPipe.name=精制机械管道
+item.MultipartTransmitter.EliteMechanicalPipe.name=精英机械管道
 item.MultipartTransmitter.UltimateMechanicalPipe.name=终极机械管道
-item.MultipartTransmitter.BasicLogisticalTransporter.name=基础物流传送管道
-item.MultipartTransmitter.AdvancedLogisticalTransporter.name=高级物流传送管道
-item.MultipartTransmitter.EliteLogisticalTransporter.name=精制物流传送管道
-item.MultipartTransmitter.UltimateLogisticalTransporter.name=终极物流传送管道
+item.MultipartTransmitter.BasicLogisticalTransporter.name=基础物流管道
+item.MultipartTransmitter.AdvancedLogisticalTransporter.name=高级物流管道
+item.MultipartTransmitter.EliteLogisticalTransporter.name=精英物流管道
+item.MultipartTransmitter.UltimateLogisticalTransporter.name=终极物流管道
 item.MultipartTransmitter.RestrictiveTransporter.name=限制传送管道
 item.MultipartTransmitter.DiversionTransporter.name=转移传送管道
+item.MultipartTransmitter.BasicThermodynamicConductor.name=基础热导线缆
+item.MultipartTransmitter.AdvancedThermodynamicConductor.name=高级热导线缆
+item.MultipartTransmitter.EliteThermodynamicConductor.name=精英热导线缆
+item.MultipartTransmitter.UltimateThermodynamicConductor.name=终极热导线缆
 
 //Glow Panel
 item.GlowPanel.name=荧光板
@@ -186,14 +212,15 @@ item.GlowPanel.name=荧光板
 //Energy Cubes
 tile.EnergyCubeBasic.name=基础能量立方
 tile.EnergyCubeAdvanced.name=高级能量立方
-tile.EnergyCubeElite.name=精制能量立方
+tile.EnergyCubeElite.name=精英能量立方
 tile.EnergyCubeUltimate.name=终极能量立方
 tile.EnergyCubeCreative.name=创造能量立方
 
-//Factory Installers
+//Tier Installers
 item.basicFactoryInstaller.name=基础工厂安装器
 item.advancedFactoryInstaller.name=高级工厂安装器
-item.eliteFactoryInstaller.name=精制工厂安装器
+item.eliteFactoryInstaller.name=精英工厂安装器
+item.ultimateTierInstaller.name=终极工厂安装器
 
 //Dust
 item.ironDust.name=铁粉
@@ -312,6 +339,7 @@ fluid.lithium=液态锂
 fluid.deuterium=液态氘
 fluid.tritium=液态氚
 fluid.fusionFuelDT=液态D-T燃料
+fluid.steam=蒸汽
 
 //OreGas names
 oregas.iron=铁矿
@@ -326,7 +354,7 @@ oregas.lead=铅矿
 //Tier names
 tier.Basic=基础
 tier.Advanced=高级
-tier.Elite=精制
+tier.Elite=精英
 tier.Ultimate=终极
 tier.Creative=创造
 
@@ -338,7 +366,7 @@ transmission.Items=物品
 transmission.Heat=热量
 
 //Update handler text
-update.consider=考虑升级到最新版
+update.consider=是否升级到最新版
 update.newFeatures=新特性
 update.visit=访问
 update.toDownload=下载
@@ -347,42 +375,42 @@ update.outdated=正在使用过期版本的一两个模块
 
 //Upgrades
 upgrade.energy=能量
-upgrade.energy.desc=提升能源效率!n以及机器性能.
+upgrade.energy.desc=提升能源效率 以及机器性能.
 upgrade.speed=速度
 upgrade.speed.desc=提升机器的速度.
 upgrade.filter=过滤
-upgrade.filter.desc=将重水从普通水中!n分离出来的过滤器.
-upgrade.gas=燃气
-upgrade.gas.desc=提高燃气机器的!n工作效率.
+upgrade.filter.desc=将重水从普通水中 分离出来的过滤器.
+upgrade.gas=气体
+upgrade.gas.desc=提高机器使用气体的效率.
+upgrade.muffling=降噪
+upgrade.muffling.desc=减少机器发出的噪音.
 
 //Key description text
 key.mode=模式切换
-key.armorMode=护甲模式切换
+key.armorMode=装甲模式切换
 key.voice=声音
 
 //Entities
-entity.Mekanism.Robit.name=机器人
-entity.Mekanism.BabySkeleton.name=骷髅射手宝宝
+entity.Robit.name=机器人
+entity.BabySkeleton.name=骷髅射手宝宝
 
 //Config Gui
 mekanism.configgui.ctgy.general=通用机械常规设定
 mekanism.configgui.ctgy.machines=机器设定
-mekanism.configgui.ctgy.tier=等级设定
 mekanism.configgui.ctgy.usage=能耗设定
+mekanism.configgui.ctgy.usage=使用设定
 mekanism.configgui.ctgy.client=客户端设定
 
 //Config Tooltips
 mekanism.configgui.ctgy.general.tooltip=通用机械及其下所有模块的常规设定
 mekanism.configgui.ctgy.machines.tooltip=是否启用特定机器的设定
-mekanism.configgui.ctgy.tier.tooltip=通用机械等级及其对应参数设定
-mekanism.configgui.ctgy.usage.tooltip=机械及其能耗的设定
+mekanism.configgui.ctgy.usage.tooltip=通用机械物品等级以及属性设定
+mekanism.configgui.ctgy.usage.tooltip=有关机械以及能耗的设定
 mekanism.configgui.ctgy.client.tooltip=通用机械及其下所有模块在客户端的特殊设定
 
 //Gui text
-gui.removeSpeedUpgrade=移除速度升级
-gui.removeEnergyUpgrade=移除能量升级
-gui.condensentrating=凝聚液体
-gui.decondensentrating=生成气体
+gui.condensentrating=凝聚液体中...
+gui.decondensentrating=生成气体中...
 gui.power=功率
 gui.confirm=确认
 gui.open=开启
@@ -421,11 +449,11 @@ gui.newFilter=新过滤器
 gui.energy=能量
 gui.gas=气体
 gui.dumping=排出
-gui.dumping_excess=过量排出
+gui.dumping_excess=排出过量
 gui.modID=Mod ID
 gui.key=关键字
 gui.id=ID
-gui.finished=完成状态
+gui.finished=已完成
 gui.well=一切正常!
 gui.upgrade=升级
 gui.infinite=无限
@@ -439,14 +467,19 @@ gui.formed=已成型
 gui.incomplete=未完成
 gui.inductionMatrix=输导矩阵
 gui.matrixStats=矩阵统计
-gui.main=主
+gui.turbineStats=涡轮数据
+gui.boilerStats=锅炉数据
+gui.main=Main
 gui.outputting=输出
+gui.receiving=输入
 gui.dimensions=世界
 gui.constituents=成分
 gui.cells=元件
 gui.providers=供应器
 gui.structure=结构
 gui.dynamicTank=动态储罐
+gui.industrialTurbine=工业涡轮
+gui.thermoelectricBoiler=热力锅炉
 gui.visuals=外观
 gui.noEject=无法输出
 gui.undefined=未定义
@@ -457,29 +490,76 @@ gui.add=添加
 gui.set=设定
 gui.freq=频率
 gui.security=安全性
-gui.index=索引
-gui.producing=生产
+gui.index=列表
+gui.producing=产出
 gui.maxOutput=最大输出
-gui.storing=存储
-gui.skyBlocked=天空锁定
-gui.using=能耗
+gui.storing=存量
+gui.skyBlocked=Sky blocked
+gui.using=消耗
 gui.needed=需要
-gui.noRecipe=无合成配方
+gui.noRecipe=没有配方
 gui.conflict=冲突
 gui.height=高度
-gui.mult=增幅
+gui.mult=多方块
 gui.chunk=区块
-gui.vibrating=震动
-gui.abundancy=富集度
+gui.vibrating=振动
+gui.abundancy=丰度
 gui.nextItem=下一物品
 gui.lastItem=上一物品
-gui.oreDictCompat=矿物词典兼容标志
-gui.toggleCooling=切换冷却度量
-gui.coolingMeasurements=开启冷却
+gui.oreDictCompat=兼容矿物辞典关键词
+gui.toggleCooling=切换到冷却测量
+gui.coolingMeasurements=激活冷却
 gui.redstoneOutputMode=红石模式
+gui.moveUp=提升
+gui.moveDown=降低
+gui.flowRate=蒸汽流量
+gui.maxFlow=最大流量
+gui.tankVolume=储罐容积
+gui.steamFlow=蒸汽处理
+gui.production=产出
+gui.blades=涡轮叶片数
+gui.coils=电磁线圈数
+gui.dispersers=分散器数量
+gui.vents=排气口
+gui.maxProduction=最大产出
+gui.limiting=极限
+gui.steamInput=蒸汽输入
+gui.capacity=容量
+gui.unit=单位
+gui.temp=温度
+gui.usage=消耗
+gui.transferred=转化
+gui.dissipated=分散
+gui.boilRate=蒸汽产量
+gui.maxBoil=最大产量
+gui.maxWater=最大储水量
+gui.maxSteam=最大蒸汽容积
+gui.heatTransfer=热转化率
+gui.superheaters=导热元件
+gui.boilCapacity=蒸发闸值
+gui.encodeFormula=编码配方
+gui.autoModeToggle=切换到自动模式
+gui.craftSingle=制作单个物品
+gui.craftAvailable=连续制作物品
+gui.fillEmpty=填充/清空格子
+gui.noOwner=无所有者
+gui.securityOverride=安全设置覆写
+gui.remove=移除
+gui.trustedPlayers=白名单
+gui.publicMode=公用模式
+gui.privateMode=私用模式
+gui.trustedMode=限制模式
+gui.securityOffline=安全系统离线
+gui.noAccessDesc=你没有权限访问
+gui.overridden=覆写
+gui.nowOwn=你拥有这个物品.
+gui.frequency=频率
+gui.mode=模式
+gui.burnRate=消耗速度
 gui.entityDetection=实体检测
-gui.moveUp=向上移动
-gui.moveDown=向下移动
+gui.energyContents=能量存储
+gui.redstoneOutput=红石输出
+gui.maxWaterOutput=最大水流输出
 
 gui.reactor.injectionRate=输入速率
 
@@ -505,7 +585,7 @@ gui.configuration.strictInput=精确输入
 gui.rotaryCondensentrator.toggleOperation=切换操作
 
 gui.factory.secondaryEnergy=二次能源
-gui.factory.AutoSort=自动整理
+gui.factory.autoSort=自动分配
 
 //Recipe types
 gui.factory.Smelting=熔炼
@@ -514,7 +594,8 @@ gui.factory.Crushing=粉碎
 gui.factory.Compressing=压缩
 gui.factory.Combining=融合
 gui.factory.Purifying=提纯
-gui.factory.Injecting=注入
+gui.factory.Injecting=压射
+gui.factory.Infusing=灌注
 
 gui.seismicReader.short=地震读取器
 gui.seismicReader.solids=固体
@@ -569,8 +650,6 @@ gui.logisticalSorter.default=默认
 gui.logisticalSorter.auto=自动
 gui.logisticalSorter.roundRobin=循环模式
 
-gui.electricChest.editPassword=编辑密码
-
 gui.teleporter.notReady=未准备
 gui.teleporter.ready=已准备
 gui.teleporter.noFrame=无框架
@@ -579,6 +658,8 @@ gui.teleporter.exceeds=连接 > 2
 gui.teleporter.needsEnergy=需要能量
 gui.teleporter.noAccess=你没有该传送器的权限.
 gui.teleporter.noFreq=无频率
+
+gui.entangloporter.noAccess=你没有该传送器的权限.
 
 gui.digitalMinerConfig=数字型采矿机配置
 
@@ -597,6 +678,12 @@ gui.digitalMiner.missingBlock=缺失方块
 
 //Recipe names
 recipe.mekanismShaped=有序
+recipe.mekanismShapeless=无序
+
+//Security types
+security.public=公用
+security.private=私有
+security.trusted=专用
 
 //Item and block tooltip text
 tooltip.configurator.configurate=配置
@@ -605,17 +692,17 @@ tooltip.configurator.rotate=旋转
 tooltip.configurator.wrench=扳手
 tooltip.configurator.pumpReset=重置电力泵计数
 tooltip.configurator.toggleDiverter=分流模式更改为
-tooltip.configurator.toggleColor=颜色切换为
-tooltip.configurator.viewColor=当前颜色
-tooltip.configurator.unauth=该箱子已锁
+tooltip.configurator.toggleMode=%s behavior bumped to
+tooltip.configurator.viewMode=Current %s behavior
 tooltip.configurator.noLink=无链接
 tooltip.configurator.linkMsg=绑定到
 tooltip.configurator.dim=位面
 tooltip.configurator.setLink=设置连接至方块
 tooltip.configurator.plenisherReset=重置流体装填机计算结果
 tooltip.configurator.inductionPortMode=将端口传输模式调为
-tooltip.configurator.toggleColor=Color bumped to
+tooltip.configurator.toggleColor=颜色切换为
 tooltip.configurator.viewColor=当前颜色
+tooltip.configurator.reactorPortEject=将反应堆端口模式设置为
 
 tooltip.upgrade.speed=速度
 tooltip.upgrade.energy=能量
@@ -661,7 +748,12 @@ tooltip.outputRate=输出速率
 tooltip.insufficientFuel=燃料不足
 tooltip.readyForReaction=已准备好反应
 tooltip.speed=速度
-tooltip.and=与
+tooltip.and=和
+tooltip.heat=热力
+tooltip.itemAmount=物品数量
+tooltip.invalid=无效
+tooltip.encoded=编码
+tooltip.ingredients=原料
 
 tooltip.portableTank.bucketMode=水桶模式
 
@@ -671,12 +763,9 @@ tooltip.disassembler.fast=快
 tooltip.disassembler.vein=矿脉
 tooltip.disassembler.off=关
 
-tooltip.filterCard.got=从%s恢复过滤器数据
-tooltip.filterCard.set=导入类型%s的过滤器数据
-tooltip.filterCard.unequal=过滤器数据格式不符规则
-tooltip.filterCard.logisticalSorter=物流分类器
-tooltip.filterCard.digitalMiner=数字型采矿机
-tooltip.filterCard.oredictionificator=矿典转换器
+tooltip.configurationCard.got=从%s恢复过滤器数据
+tooltip.configurationCard.set=导入类型%s的过滤器数据
+tooltip.configurationCard.unequal=过滤器数据格式不符规则
 
 tooltip.balloon=气球
 
@@ -684,62 +773,95 @@ tooltip.jetpack.regular=标准
 tooltip.jetpack.hover=悬浮
 tooltip.jetpack.disabled=禁用
 
+tooltip.flamethrower.combat=战斗
+tooltip.flamethrower.heat=热量
+tooltip.flamethrower.inferno=地狱
+tooltip.flamethrower.modeBump=火焰喷射器模式切换为
+
 tooltip.seismicReader.needsEnergy=能量不足无法诠释振动
 tooltip.seismicReader.noVibrations=未能发现任何振动
 
-tooltip.EnrichmentChamber=一台能将矿石磨成两份粉末的机器, !n也可以进行一些其他操作.
-tooltip.OsmiumCompressor=一台非常高级的设备,能够将锇矿石压缩成 !n多种粉末以制造相应金属锭.
+tooltip.Bin=一个能存储大量单种物品的方块.
+tooltip.TeleporterFrame=传送框架用于搭建传送门结构,允许传送门在其中打开
+tooltip.SteelCasing=坚固耐用的钢制机壳，是机械的基础
+tooltip.DynamicTank=动态储罐多方块结构的框架,可以存储大量液体
+tooltip.StructuralGlass=一种用新型材料制作的强化玻璃,可以挖掘. 用于制作各种多方块机器结构
+tooltip.DynamicValve=动态储罐的连接口,允许液体管道与动态储罐交互
+tooltip.ThermalEvaporationController=热力蒸馏塔的控制器,作为结构的核心.每个蒸馏塔只能有一个
+tooltip.ThermalEvaporationValve=用于热力蒸馏塔的阀门,可以使热力蒸馏塔和外界管道交互
+tooltip.ThermalEvaporationBlock=一种用铜合金制作的用于热力蒸馏塔的外壳,使用先进的材料来保证热处理的稳定
+tooltip.InductionCasing=用于输导矩阵的绝缘外壳
+tooltip.InductionPort=输导矩阵的接口,允许外界能量管道与矩阵交互
+tooltip.InductionCell=能存储大量能量的方块,作为输导矩阵的存储元件
+tooltip.InductionProvider=一种先进的能源管理装置,可以提高输导矩阵的能源交互量.
+tooltip.SuperheatingElement=一种模块化的导热元件,能够叫热量高效率地传导到周边
+tooltip.PressureDisperser=一种能保证蒸汽压力的多方块结构方块,它们应该无间隙的放置来保证蒸汽能平稳传送.
+tooltip.BoilerCasing=一种耐压方块,用于制作锅炉结构的外壳
+tooltip.BoilerValve=用于锅炉结构的阀门,能让水进入锅炉并导出产生的蒸汽
+tooltip.SecurityDesk=一个中央控制系统,用于管理你所有机器的安全设置
+
+tooltip.EnrichmentChamber=一台能将矿石磨成两份粉末的机器 也可以进行一些其他操作.
+tooltip.OsmiumCompressor=一台非常高级的设备,能够将锇矿石压缩成 多种粉末以制造相应金属锭.
 tooltip.Combiner=A machine 一台用来将粉末与圆石融合为相应矿石的机器.
-tooltip.Crusher=一台用来将金属锭磨成相应粉末的机器, !n也可以进行一些其他操作.
-tooltip.DigitalMiner=一台高度先进,以过滤为基础功能的自动采矿机, !n它可以挖掉指定的32格范围(最大)内的所有方块.
-tooltip.BasicFactory=最低级的自动生产线 !n可以立即处理多个工序.
-tooltip.AdvancedFactory=中级的自动生产线,!n可以立即处理多个工序.
-tooltip.EliteFactory=最高级的自动生产线,!n能够一次处理多个工序.
-tooltip.MetallurgicInfuser=一台用来将多种材料的金属熔炼成!n合金或其他化合物的设备.
-tooltip.PurificationChamber=一台能够将矿石加工成三块矿石疙瘩的高级设备,!n能够提供300%的矿石加工效率.
+tooltip.Crusher=一台用来将金属锭磨成相应粉末的机器, 也可以进行一些其他操作.
+tooltip.DigitalMiner=一台高度先进,以过滤为基础功能的自动采矿机, 它可以挖掉指定的32格范围(最大)内的所有方块.
+tooltip.MetallurgicInfuser=一台用来将多种材料的金属熔炼成 合金或其他化合物的设备.
+tooltip.PurificationChamber=一台能够将矿石加工成三块矿石疙瘩的高级设备, 能够提供300%的矿石加工效率.
 tooltip.EnergizedSmelter=一台简单的消耗通用机器能量的熔炉.
 tooltip.Teleporter=一台能够将玩家传送到其他传送器标定的各种位置的设备.
-tooltip.ElectricPump=能够抽干岩浆湖的高级泵.
-tooltip.ElectricChest=便携的54格容量的箱子,!n具有耗能的密码锁功能.
+tooltip.ElectricPump=一台能支持升级,过滤,自动弹射的高级泵
+tooltip.PersonalChest=便携的54格容量的箱子, 具有耗能的密码锁功能.
 tooltip.Chargepad=通用充能板,能够为各种模组中的物品补充能量.
-tooltip.LogisticalSorter=一台以过滤为基础功能的高级整理机器, !n能够自动将指定物品弹射到依附的物品栏或物流管道中.
-tooltip.RotaryCondensentrator=一台能够将气体和其液态形式,!n相互转化的机器.
-tooltip.ChemicalInjectionChamber=一台能够将!n矿物处理成4个碎片的精制机器, 是400%量产矿物的!n第一步.
-tooltip.ElectrolyticSeparator=一台使用!n电解将特定气体 !n分离成两种不同气体的机器.
-tooltip.PrecisionSawmill=一台更有效地处理原木和!n木制品的机器, 同时!n也能获得锯屑.
-tooltip.ChemicalDissolutionChamber=一台能够通过化学手段溶解!n矿石里的所有杂质, !n从而得到未经处理的矿物浆液的终极机器.
-tooltip.ChemicalWasher=一台能够清理未经处理的!n浆液,为结晶作准备的终极机器.
-tooltip.ChemicalCrystallizer=一台用于结晶!n净化过的矿物浆液的终极机器.
-tooltip.ChemicalOxidizer=一台能够将!n固态材料氧化成气态产物的机器.
-tooltip.ChemicalInfuser=一台能够通过注入其它两种!n气体产生新的气体的机器.
-tooltip.SeismicVibrator=一台能够利用地震震动!n提供关于这个世界!n地质结构的机器.
-tooltip.PressurizedReactionChamber=一台能够处理!n固体,液体和气体混合物,并且能!n产生气态和固态产物的高级机器.
-tooltip.PortableTank=一个便利的携带式水槽,能够让你!n无论何处都能携带!n14桶液体. 同时可以当做水桶来用!
-tooltip.FluidicPlenisher=一台能够用液体填充沟壑!n从而产生一整个湖的机器.
-tooltip.Laser=一种高级的能量传输形式!n,利用平行光线实现能量!n的直线传输.
-tooltip.LaserAmplifier=一个能用于合并,转向和!n增幅激光的方块,易于控!n制.
-tooltip.LaserTractorBeam=一个用于合并和转向激!n光的方块.会收集它所破!n坏方块的掉落物.
-tooltip.SolarNeutronActivator=一个将太阳的中子辐射!n引入自身腔体的机器,可!n缓慢制造各种同位素.
-tooltip.Oredictionificator=一个使用矿典统一并翻译!n各种物品和方块的机器.
+tooltip.LogisticalSorter=一台以过滤为基础功能的高级整理机器, 能够自动将指定物品弹射到依附的物品栏或物流管道中.
+tooltip.RotaryCondensentrator=一台能够将气体和其液态形式, 相互转化的机器.
+tooltip.ChemicalInjectionChamber=一台能够将矿物处理成4个碎片的精英机器, 是400%量产矿物的 第一步.
+tooltip.ElectrolyticSeparator=一台使用电解将特定气体 分离成两种不同气体的机器.
+tooltip.PrecisionSawmill=一台更有效地处理原木和 木制品的机器, 同时 也能获得锯屑.
+tooltip.ChemicalDissolutionChamber=一台能够通过化学手段溶解 矿石里的所有杂质, 从而得到未经处理的矿物浆液的终极机器.
+tooltip.ChemicalWasher=一台能够清理未经处理的 浆液,为结晶作准备的终极机器.
+tooltip.ChemicalCrystallizer=一台用于结晶净化过的 矿物浆液的终极机器.
+tooltip.ChemicalOxidizer=一台能够将固态材料氧化成 气态产物的机器.
+tooltip.ChemicalInfuser=一台能够通过注入其它两种 气体产生新的气体的机器.
+tooltip.SeismicVibrator=一台能够利用地震震动 提供关于这个世界 地质结构的机器.
+tooltip.PressurizedReactionChamber=一台能够处理固体,液体和气体混合物, 并且能产生气态和固态产物的高级机器.
+tooltip.PortableTank=一个便利的携带式水槽,能够让你 无论何处都能携带14桶液体. 同时可以当做水桶来用!
+tooltip.FluidicPlenisher=一台能够用液体填充沟壑 从而产生一整个湖的机器.
+tooltip.Laser=一种高级的能量传输形式 利用平行光线实现能量 的直线传输.
+tooltip.LaserAmplifier=一个能用于合并,转向和 增幅激光的方块,易于控 制.
+tooltip.LaserTractorBeam=一个用于合并和转向激 光的方块.会收集它所破 坏方块的掉落物.
+tooltip.SolarNeutronActivator=一个将太阳的中子辐射 引入自身腔体的机器,可 缓慢制造各种同位素.
+tooltip.Oredictionificator=一个使用矿典统一并翻译 各种物品和方块的机器.
+tooltip.Factory=一台经过工业化升级的机器,能够一次同时处理多个原料
+tooltip.ResistiveHeater=一台能直接将能量转化成热能的机器
+tooltip.FormulaicAssemblicator=一台快速制作成品的机器
+tooltip.FuelwoodHeater=一台通过燃烧可燃物来生产热量的机器
+tooltip.QuantumEntangloporter=一台高科技机器 可用于远程传输各类资源.
 
-tooltip.HeatGenerator=一台使用岩浆热量或者!n其它可燃资源产生能量的发电机.
-tooltip.SolarGenerator=一台使用!n太阳能量发电的发电机.
-tooltip.GasGenerator=一台利用!n不同的气体供能的发电机.
-tooltip.BioGenerator=一台利用燃烧!n有机材料产生能量的发电机.
-tooltip.AdvancedSolarGenerator=一台直接!n吸收大部分太阳光!n产生能量的高级发电机.
-tooltip.WindTurbine=一台利用风能!n产生能量的发电机, 高度越高!n效率越高.
+tooltip.HeatGenerator=一台使用岩浆热量或者 其它可燃资源产生能量的发电机.
+tooltip.SolarGenerator=一台使用太阳能量发电的发电机.
+tooltip.GasGenerator=一台利用不同的气体供能的发电机.
+tooltip.BioGenerator=一台利用燃烧 有机材料产生能量的发电机.
+tooltip.AdvancedSolarGenerator=一台直接吸收大部分太阳光 产生能量的高级发电机.
+tooltip.WindGenerator=一台利用风能产生能量的发电机, 高度越高 效率越高.
+tooltip.TurbineRotor=放置在工业涡轮中的钢制转子
+tooltip.RotationalComplex=放置在涡轮转子上方的转化元件,能够将转子的动能转化.
+tooltip.ElectromagneticCoil=一块类似磁铁的装置,能使得动能在其中转化为电磁能,它必须放置在旋钮装置的上方并保证它们是相连的.
+tooltip.TurbineCasing=用于工业涡轮的耐压外壳
+tooltip.TurbineValve=用于输送蒸汽并导出能量的工业涡轮阀门
+tooltip.TurbineVent=用于将剩余蒸汽排出的涡轮外壳,它们必须安装在旋钮装置以上的位置.
+tooltip.SaturatingCondenser=用于将工业涡轮产生的蒸汽重新凝结成和使用的水,必须安装在旋钮装置以上的位置.
 
-tooltip.ReactorGlass=能用于聚变反应结构的!n强化玻璃.
-tooltip.ReactorLaserFocusMatrix=一个可吸收光能并加热!n聚变反应堆的强化玻璃!n板.
-tooltip.ReactorController=整个聚变反应结构的控!n制方块.
-tooltip.ReactorFrame=能用于聚变反映结构的!n强化框架.
-tooltip.ReactorNeutronCapturePlate=一个能用于阻隔聚变辐!n射或协助氚生成的方块.
-tooltip.ReactorPort=一个强化的框架方块,能!n处理聚变反应堆中气体!n和能量的输送.
-tooltip.ReactorLogicAdapter=该方块能够通过红石 !n来简单监控反应堆.
+tooltip.ReactorGlass=能用于聚变反应结构的 强化玻璃.
+tooltip.ReactorLaserFocusMatrix=一个可吸收光能并加热 聚变反应堆的强化玻璃 板.
+tooltip.ReactorController=整个聚变反应结构的控 制方块.
+tooltip.ReactorFrame=能用于聚变反映结构的 强化框架.
+tooltip.ReactorNeutronCapturePlate=一个能用于阻隔聚变辐 射或协助氚生成的方块.
+tooltip.ReactorPort=一个强化的框架方块,能 处理聚变反应堆中气体 和能量的输送.
+tooltip.ReactorLogicAdapter=一个能够通过红石信号 简单操控反应堆的方块.
 
-tooltip.OsmiumOre=一种牢固的材料,它能够在!n这个世界任何高度被发现. !n它因经常用于!n机器建造而闻名.
-tooltip.CopperOre=一种常见的导电材料,能够!n用于线缆的产出. !n它耐高温的特性!n也使它成为生成!n高级机械的重要材料.
-tooltip.TinOre=一种轻盈, 但牢固的导电!n材料, 比铜要!n略微稀有点.
+tooltip.OsmiumOre=一种牢固的材料,它能够在 这个世界任何高度被发现. 它因经常用于 机器建造而闻名.
+tooltip.CopperOre=一种常见的导电材料,能够用于线缆的产出. 它耐高温的特性也使它成为生成 高级机械的重要材料.
+tooltip.TinOre=一种轻盈, 但牢固的导电材料, 比铜要 略微稀有点.
 
 //Side data
 sideData.None=无
@@ -750,6 +872,10 @@ sideData.Gas=气体
 sideData.Extra=提取
 sideData.Infuse=注入
 sideData.Fluid=流体
+sideData.Fill=充满
+sideData.Empty=排空
+sideData.Charge=充能
+sideData.Discharge=反充能
 
 //Redstone control
 control.disabled=禁止
@@ -807,14 +933,14 @@ dye.yellow=黄色
 dye.white=白色
 
 //Reactor Logic modes
-reactor.disabled=禁用
-reactor.disabled.desc=不会发出红石信号
-reactor.ready=准备点火
-reactor.ready.desc=反映对达到点火所需热度
-reactor.capacity=达到热容
-reactor.capacity.desc=反应堆核心热容已达到
+reactor.disabled=关闭
+reactor.disabled.desc=不会输出信号
+reactor.ready=Ready for 准备开始
+reactor.ready.desc=反应堆已达到需求温度
+reactor.capacity=热满足
+reactor.capacity.desc=反应堆温度已经趋于稳定
 reactor.depleted=燃料不足
-reactor.depleted.desc=反应堆燃料不足，无法维持反应进行
+reactor.depleted.desc=反应没有足够的燃料维持
 
 //Creative tab
 itemGroup.tabMekanism=通用机械
@@ -830,6 +956,7 @@ nei.rotaryCondensentrator=回旋式气液转换机
 //Items
 item.SolarPanel.name=太阳能板
 item.Hohlraum.name=黑体辐射腔
+item.TurbineBlade.name=涡轮叶片
 
 //Generators
 tile.Generator.HeatGenerator.name=热力发电机
@@ -837,13 +964,20 @@ tile.Generator.SolarGenerator.name=太阳能发电机
 tile.Generator.GasGenerator.name=燃气发电机
 tile.Generator.BioGenerator.name=生物能发电机
 tile.Generator.AdvancedSolarGenerator.name=高级太阳能发电机
-tile.Generator.WindTurbine.name=风力涡轮机
+tile.Generator.WindGenerator.name=风力涡轮机
+tile.Generator.TurbineRotor.name=涡轮转子
+tile.Generator.RotationalComplex.name=复杂旋钮装置
+tile.Generator.ElectromagneticCoil.name=电磁线圈
+tile.Generator.TurbineCasing.name=涡轮外壳
+tile.Generator.TurbineValve.name=涡轮阀门
+tile.Generator.TurbineVent.name=涡轮排气口
+tile.Generator.SaturatingCondenser.name=饱和冷凝器
 
 tile.Reactor.ReactorController.name=反应控制器
-tile.Reactor.ReactorFrame.name=反应器框架
+tile.Reactor.ReactorFrame.name=反应堆框架
 tile.Reactor.ReactorNeutronCapturePlate.name=中子吸收板
-tile.Reactor.ReactorPort.name=反应器端口
-tile.Reactor.ReactorLogicAdapter.name=反应适配器
+tile.Reactor.ReactorPort.name=反应堆端口
+tile.Reactor.ReactorLogicAdapter.name=反应逻辑适配器
 
 tile.ReactorGlass.ReactorGlass.name=强化玻璃
 tile.ReactorGlass.ReactorLaserFocusMatrix.name=激光聚焦矩阵
@@ -868,7 +1002,7 @@ gui.steamProduction=蒸汽产量
 //TOOLS//
 //*****//
 
-//VanillaPaxels
+//Vanilla Paxels
 item.WoodPaxel.name=木镐尖斧
 item.StonePaxel.name=石镐尖斧
 item.IronPaxel.name=铁镐尖斧
